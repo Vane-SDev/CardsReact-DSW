@@ -1,0 +1,103 @@
+/* Estilos predeterminados */
+.cardV {
+  font-family: 'Cormorant Garamond', serif;
+  border: 2px solid #f53900;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 15px;
+  background-color: #ffe6e0;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.5s ease, opacity 0.5s ease, background-color 0.3s ease, color 0.3s ease;
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+.cardV.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.cardV-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 2px solid #d73e0f;
+}
+
+.cardV-name {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.8rem;
+  color: #1b1818;
+  text-transform: uppercase;
+}
+
+.cardV-description {
+  font-size: 1rem;
+  color: #555;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+.cardV-details {
+  margin-top: 15px;
+  text-align: left;
+}
+
+.cardV-button {
+  background-color: #ff5722;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.cardV-button:hover {
+  background-color: #e64a19;
+}
+
+.cardV-link {
+  display: block;
+  margin-top: 15px;
+  text-decoration: none;
+  color: #ff5722;
+}
+
+.cardV-link:hover {
+  text-decoration: underline;
+}
+/* Modo Oscuro */
+.App.dark .cardV {
+  background-color: #333333; /* Fondo oscuro */
+  border-color: #ffa726; 
+}
+
+.App.dark .cardV-description {
+  color: #e0e0e0; 
+}
+
+.App.dark .cardV-name {
+  color: #ffa726; 
+}
+
+.App.dark .cardV-details {
+  color: #bdbdbd; 
+}
+
+.App.dark .cardV-button {
+  background-color: #ffa726; claro */
+  color: #000000; /* Texto oscuro para contraste */
+}
+
+.App.dark .cardV-button:hover {
+  background-color: #ffb74d; 
+}
+
+.App.dark .cardV-link {
+  color: #ffa726; 
+}
+
+.App.dark .cardV-link:hover {
+  color: #302e2c; 
+}

@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Vanesa Soria",
+    "image": "perfil2",
+    "description": "Soy desarrolladora frontend con React.",
+    "link": "https://linkedin.com/in/soria-vanesa-frontend-dev",
+    "additionalInfo": "Me especializo en la construcción de interfaces dinámicas y atractivas usando React. También tengo experiencia en diseño UX/UI.",
+    "hobbies": ["Diseño gráfico", "Diseño Web", "Aprender nuevas tecnologías", "Enseñar Matemática"],
+    "skills": ["React", "JavaScript", "CSS", "HTML", "UI/UX", " C# "]
+    
+  },
+  {
+    "name": "Estefania Vago",
+    "image": "perfil1",
+    "description": "Soy desarrolladora backend con Java.",
+    "link": "https://linkedin.com/in/Estefania",
+    "additionalInfo": "Trabajo en la creación de APIs, optimización de bases de datos y sistemas escalables.",
+    "hobbies": ["Resolver problemas lógicos", "Leer sobre sistemas distribuidos", "Viajar"],
+    "skills": ["Java", "Spring", "Spring Boot", "Hibernate", "MySQL", "PostgreSQL"]
+  }
+]

@@ -1,0 +1,84 @@
+.cardE {
+  font-family: 'Playfair Display', serif;
+  border: 1px solid #e60000;
+  border-radius: 8px;
+  padding: 16px;
+  max-width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgb(165, 9, 9, 0.1);
+  transition: transform 0.4s ease , background-color 0.3s ease;
+
+  
+}
+
+.cardE:hover  {
+  transform: scale(1.05);
+  background: linear-gradient(90deg, #2f5cb6, #6a0dad, #fd5858);
+  color:white;
+}
+.cardE:hover p {
+  color:white;
+}
+
+.cardE-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10%;
+  max-width: 100px;
+  margin-bottom: 16px;
+  border: 3px solid #a50909;
+  box-shadow: 0 4px 8px rgb(26, 26, 26, 0.1);
+  
+}
+
+.cardE-name {
+  font-size: 1.5rem;
+  margin: 8px 0;
+  font-family: 'Playfair Display', serif;
+}
+
+.cardE-description {
+  font-family: 'Playfair Display', serif;
+  font-size: 1rem;
+  color: #000000;
+  margin-bottom: 12px;
+}
+
+.cardE-link {
+  display: block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #2196f3;
+  font-weight: bold;
+}
+
+.cardE-link:hover{
+  color: #fd7cbb;
+}
+
+.cardE-more{
+  margin-top: 15px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #6d0318;  
+  border-radius:20px;
+}
+
+.cardE-more:hover{
+  color: #fd7cbb;
+}
+
+.App.dark .cardE-description {
+  color: #e0e0e0; 
+}
+
+
+@media (max-width: 600px) {
+  .cardE {
+      max-width: 80%;
+  }
+}
+
+
+
+

@@ -1,0 +1,138 @@
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    font-family: 'Cormorant Garamond', serif;
+    color: #333;
+}
+
+body.dark {
+    background-color: #121212;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.App.dark {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.intro, .about {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #1a1a1a;
+    padding: 20px;
+}
+
+nav a, .intro, .about {
+  font-family: 'Delius', cursive;
+}
+
+
+.App.dark .intro, .App.dark .about, .App.dark a, .App.dark .about-text {
+    color: #ffffff;
+}
+
+.App.dark a:hover{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: #d1d1d1;
+    padding: 8px 15px;
+}
+
+.mode-toggle-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-bottom: 20px;
+    transition: color 0.3s ease;
+}
+
+.mode-toggle-button:hover {
+    color: #005bb5;
+}
+
+.mode-toggle-button .fa-sun {
+    color: #FFD700;
+}
+.mode-toggle-button .fa-moon {
+    color: #4b4b4b;
+}
+
+.card-container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh-150px);
+    width: 100%;
+}
+
+nav {
+    margin: 20px 0px;
+    
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 20px 0px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin:0;
+}
+
+nav a {
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #2f5cb6;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: all 0.5s ease;
+}
+
+nav a:hover {
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: #333333;
+    padding: 8px 15px;
+}
+
+
+
+
+h1, h2 {
+    margin: 0;
+    padding: 10px 0;
+    text-align:center;
+    font-size: 2rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+}
+
+@media (max-width: 600px){
+    nav ul{
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 1.1rem;
+        
+    }
+
+   
+}
